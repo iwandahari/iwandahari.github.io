@@ -1,0 +1,28 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+section{
+	width: 1000px;
+	margin: 0 auto;
+}div{
+	float: left;
+}
+.vrside{
+    width: 100%;
+    display: inline-block;
+    background: chocolate;
+    height: 150px;
+}
+.hrside{
+    background: #304c13;
+    display: inline-block;
+    width: 25%;
+    height: 350px;
+}
+#middle{
+	    background: #7baed2;
+    height: 350px;
+    display: inline-block;
+    width: 50%;
+}
