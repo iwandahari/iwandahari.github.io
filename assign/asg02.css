@@ -1,0 +1,121 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: auto;
+    height: auto;
+    background: #0862b1;
+}
+div.box {
+    border: 2px solid #c5e4ff;
+    margin-top: 20px;
+    padding: 0px;
+}
+div#header {
+    margin: 0px;
+    height: 150px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: -webkit-linear-gradient(top, #264e77, #1173d6, #17baf9);
+}
+div#logo {
+    display: inline-block;
+    margin-right: 290px;
+}
+img {
+    margin-left: 22px;
+    margin-top: -6px;
+}
+.navbar {
+    width: 115px;
+    height: 30px;
+    background-color: #e0cd42;
+    border-radius: 10px;
+    margin: 10px 25px 10px;
+    padding-top: 3px;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: bottom;
+    display: inline-block;
+}
+div#sidebar {
+    width: 30%;
+    height: 450px;
+    display: inline-block;
+    border: 2px dashed black;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background: #c5e4ff;
+}
+div#mainmenu {
+    width: 65%;
+    height: 450px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 25px;
+    float: right;
+    border: 2px dashed black;
+    border-radius: 25px;
+    vertical-align: top;
+    background: #c5e4ff;
+}
+#pmenu {
+    text-align: justify;
+    text-indent: 30px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    word-spacing: 5px;
+    font-family: 'IM Fell DW Pica', serif;
+}
+#boxbutton {
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    text-align: center;
+    background-color: rgb(32, 145, 226);
+}
+.button {
+    width: 130px;
+    height: 130px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 20px 54px;
+    background-image: url("https://iwandahari.github.io/assign/image/blue.jpg");
+    text-align: center;
+    position: relative;
+}
+div#special {
+    float: none;
+}
+.upbutton {
+    width: 20px;
+    height: 20px;
+    background: #c5e4ff;
+    border: 1px solid black;
+    border-radius: 100%;
+    position: absolute;
+    top: -11px;
+    right: -11px;
+}
+.lowbutton {
+    width: 75px;
+    height: 20px;
+    background: #c5e4ff;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -11px;
+    left: 27px;
+}
+div#footer {
+    height: 85px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+    border: none;
+    border-top: 2px solid #c5e4ff;
+}
