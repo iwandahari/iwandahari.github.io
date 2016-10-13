@@ -1,0 +1,337 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+    background-image: url(https://iwandahari.github.io/assign/image/Geralt_of_Rivia_transparant.png), url(https://iwandahari.github.io/assign/image/image.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: -16% 0%, 122% 98%;
+}
+#wrapper {
+    width: 1000px;
+    margin: auto;
+    height: auto;
+background: #0a1114;
+}
+div.box {
+    margin-top: 20px;
+    padding: 0px;
+}
+div#fixbar {
+    border: none;
+    width: 1000px;
+    height: auto;
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    position: fixed;
+    background-color: #b88930;
+    box-sizing: border-box;
+    z-index: 10;
+}
+div#fixbar a {
+    display: inline-block;
+    width: 150px;
+    height: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 9px 4px;
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.9s;
+}
+div#fixbar a:first-child{
+    width: 80px;
+}
+div#fixbar a:hover {
+    background-color: rgba(216, 170, 83, 0.74);
+    border-left: 9px solid #6d5f45;
+}
+#dropdown {
+    display: inline-block;
+    position: relative;
+
+}
+#dropbtn {
+    width: 150px;
+    height: 100%;
+    border: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 10px 0px;
+    background-color: #b88930;
+    cursor: pointer;
+    color: #ffffff;
+}
+#drop-content {
+    display: none;
+    position: absolute;
+    background-color: #b88930;
+    width: 150px;
+}
+#fixbar #dropdown #drop-content a {
+    color: white;
+    width: 150px;
+    padding: 9px 4px;
+    text-decoration: none;
+    display: block;
+    transition-duration: 0.8s;
+}
+#drop-content a:hover {
+    background-color: rgba(216, 170, 83, 0.74);
+}
+#dropdown:hover #drop-content  {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+div#header {
+    margin: 0px;
+    height: 200px;
+    border-bottom: 2px solid #b88930;
+    background: -webkit-linear-gradient(top, #101317, #2e3133, #cad1d4);
+}
+#logo01 {
+    margin-left: 13px;
+    margin-top: 49px;
+}
+img#logo02 {
+    float: right;
+    margin-right: 14px;
+    margin-top: 60px;
+}
+div#sidebar {
+    width: 24%;
+    height: 489px;
+    display: inline-block;
+    border: 2px solid #b88930;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background: #61686b;
+}
+#sidebar a {
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    height: 30px;
+    padding: 4px 0px;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.31);
+    text-align: center;
+    border-bottom: 1px solid #afb6bb;
+}
+#sidebar a:first-child {
+    border-top: 1px solid #afb6bb;
+}
+div#mainmenu {
+    width: 75%;
+    height: 489px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 15px;
+    float: right;
+    border: 2px solid #b88930;
+    border-radius: 3px;
+    vertical-align: top;
+    background: #61686b;
+}
+fieldset {
+    padding: 3px 10px;
+    border-radius: 8px;
+    margin: 0px 8px;
+}
+legend {
+    font-family: 'Archivo Narrow', sans-serif;
+    color: white;
+    font-size: 19px;
+    text-align: left;
+}
+legend::first-letter{
+    font-family: 'Devonshire', cursive;
+    font-size: 30px;
+}
+#mainmenu p{
+    margin: 5px 5px 20px;
+    text-align: justify;
+    text-indent: 30px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    word-spacing: 5px;
+    font-size: 15px;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+}
+#boxbutton {
+    padding: 10px;
+    height: 300px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #b88930;
+    text-align: center;
+    box-sizing: border-box;
+    background: #61686b;
+}
+.char{
+    -webkit-transform: rotate(-90deg);
+}
+.button {
+    width: 120px;
+    height: 120px;
+    -webkit-transform: rotate(45deg);
+    border: 2px solid black;
+    display: inline-block;
+    margin: 27px 54px 64px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+
+}
+div#special {
+    float: none;
+}
+.lowbutton {
+    width: 120px;
+    height: 22px;
+    -webkit-transform: rotate(-45deg);
+    background: #ecc270;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -25px;
+    left: 74px;
+}
+.lowbutton p{
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: bold;
+}
+#vidbox{
+    padding: 10px;
+    height: auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #b88930;
+    text-align: center;
+    box-sizing: border-box;
+    background: #61686b;
+}
+iframe {
+    margin: 10px 0px 4px;
+    padding: 5px;
+    border: 3px solid #ecc270;
+}
+#vidbox p {
+    padding: 5px 2px 0px;
+    width: 216px;
+    height: 30px;
+    font-weight: bold;
+    margin: 1px auto 10px;
+    background-color: #ecc270;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+div#survey {
+    width: 100%;
+    height: auto;
+    background-color: #61686b;
+    box-sizing: border-box;
+}
+#survey fieldset {
+    width: 448px;
+    height: 515px;
+    display: inline-block;
+    margin: 15px 25px 10px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+legend {
+    margin: 0px 6px;
+    padding: 0px 5px;
+}
+label {
+    display: inline-block;
+    margin: 9px 16px 9px 5px;
+    padding: 2px 8px 2px 10px;
+    width: 132px;
+    background-color: #ecc270;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: 'Titillium Web', sans-serif;
+}
+ input[type="text"] {
+    display: inline-block;
+    margin: 6px 0px;
+    padding: 4px;
+    height: 23px;
+    width: 214px;
+    box-sizing: border-box;
+}
+input[type="radio"] {
+    display: inline-block;
+    margin: 0px 5px 0px 36px;
+}
+#register p{
+    display: inline-block;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+input[type="password"] {
+    display: inline-block;
+    margin: 6px 0px;
+    padding: 4px;
+    height: 23px;
+    width: 214px;
+    box-sizing: border-box;
+}
+input[type="Submit"] {
+    width: 190px;
+    height: 52px;
+    display: inline-block;
+    margin: 35px 117px;
+    padding: 0px;
+    background-color: #1c2c33;
+    font-size: 21px;
+    color: white;
+    border: 3px solid #6e8894;
+    border-radius: 25px;
+    transition-duration: 0.8s;
+}
+input[type="Submit"]:hover{
+    box-shadow: 1px 1px 5px #92b9b5, 2px 2px 6px #92b9b5, -1px -1px 5px #92b9b5, -2px -2px 6px #92b9b5;
+    cursor: pointer;
+}
+textarea {
+    margin: 10px;
+    padding: 7px;
+    box-sizing: border-box;
+    line-height: 18px;
+}
+div#footer {
+    height: 85px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+}
+ #bottombar{
+    border: none;
+    width: 1000px;
+    height: 50px;
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    position: fixed;
+    background-color: #b88930;
+    box-sizing: border-box;
+}
+#footer p {
+    color: #8b999e;
+    padding: 10px 45px;
+    margin: 15px 33px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
