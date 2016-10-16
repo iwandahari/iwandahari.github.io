@@ -50,6 +50,7 @@ div#sbar {
     left: -246px;
 }
 #sbar a:nth-child(3) {
+    border-top: 1px solid #afb6bb;
     /*Arrangement(name/duration/timing-function/delay/fill-mode)*/
     animation: stbar 0.4s linear 1.0s forwards;
     /* Chrome, Safari, Opera */
@@ -209,7 +210,8 @@ legend::first-letter{
     font-family: 'Devonshire', cursive;
     font-size: 30px;
 }
-content p{
+
+#intro {
     margin: 5px 5px 20px;
     text-align: justify;
     text-indent: 30px;
@@ -222,9 +224,25 @@ content p{
     column-count: 3;
     column-gap: 30px;
 }
-video {
-
+#video {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 5px 0px 24px;
 }
+.venue {
+    font-size: 15px;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    background-color: #b88930;
+    width: 133px;
+    height: 25px;
+    padding: 6px;
+    border-radius: 6px;
+    margin: 12px 4px;
+}
+
 .panorama {
     margin: 0px;
     width: 700px;
