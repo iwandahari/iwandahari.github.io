@@ -9,8 +9,8 @@
 <body>
 	<section id="side">
 			<div id="sbar">
-				<img src="TW3_English_logo_(infobox)_1.png">
-				<img id="img01" src="TW3_English_logo_(infobox)cut.png">
+				<img class="animate" src="TW3_English_logo_(infobox)_1.png">
+				<img class="animate" id="img01" src="TW3_English_logo_(infobox)cut.png">
 
 				<a href="#">Overview</a>
 				<a href="#">Character</a>
@@ -28,14 +28,18 @@
 			<img src="587508s.png">
 		</header>
 		<content>
+			<audio controls autoplay="autoplay">
+				<source src="Blood_And_Wine.mp3" type="audio/mp3">
+			</audio>
 			<form>
-				<
+				<input type="text" name="search" placeholder="Search...">
+				<input type="submit" name="send" value="Search">
 			</form>
 			<fieldset>
 				<legend>Story so far</legend>
 				<div id="video">
-					<video  width="480px" height="320px" controls autoplay>
-						<source src="The_Sword_Of_Destiny.MP4" type="video/mp4">
+					<video  width="480px" height="320px" controls>
+						<source src="killing-monster.MP4" type="video/mp4">
 					</video>
 				</div>
 				<p id="intro">The world is in chaos. The air is thick with tension and the smoke of burnt villages. The fearsome Empire of Nilfgaard has struck again, ravaging the hapless Northern Kingdoms. The once mighty northern monarchs who tried to use Geralt and his friends for their own gain are now mostly gone. In these uncertain times, no one can say what fortune holds in store, who will bring peace to the world and who will cause it only misery. But a force darker and deadlier emerges. The petty men and women commanding tin-plated armies fail to understand that their conflict is child's play compared to the Wild Hunt, the otherworldly threat which now looms. These ghastly spectral riders have for ages plagued humankind, bringing misery to the world. Yet this time the Wild Hunt seeks one person in particular: the one individual Destiny itself bestowed upon Geralt, the one soul Geralt considers kin and would do anything to protect.</p>
@@ -43,21 +47,20 @@
 			<fieldset>
 				<legend>Locations</legend>
 				<p class="venue">White Orchard</p>
-				<img class="panorama" src="17339764493_168ac97236_o.jpg">
+				<img class="panorama" src="whiteorchard.jpg">
 				<p class="venue">Velen</p>
-				<img class="panorama" src="24612072221_c6c2bd50ee_o.jpg">
+				<img class="panorama" src="velen.jpg">
 				<p class="venue">Skellige Isles</p>
-				<img class="panorama" src="24079689243_eb887d1bf9_o.jpg">
+				<img class="panorama" src="skelligeisles.jpg">
 				<p class="venue">Novigrad</p>
-				<img class="panorama" src="TW3_screen-Novigrad.jpg">
+				<img class="panorama" src="novigrad.jpg">
 				<p class="venue">Kaer Morhen</p>
-				<img class="panorama" src="Kaer Morhen.jpg">
+				<img class="panorama" src="kaermorhen.jpg">
 			</fieldset>
-			<audio controls>
-				<source src="Blood_And_Wine.mp3" type="audio/mp3">
-				<source src="" type="">
-			</audio>
 		</content>
+		<footer>
+			<p id="cred">The Witcher is a trademark of CD PROJEKT S. A. The Witcher game CD PROJEKT S. A. All rights reserved. The Witcher game is based on the prose of Andrzej Sapkowski. All other copyrights and trademarks are the property of their respective owners.</p>
+		</footer>
 	</section>
 </body>
 </html>
