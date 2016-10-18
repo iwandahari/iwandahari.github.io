@@ -49,6 +49,13 @@ div#sbar {
     position: relative;
     left: -246px;
 }
+#sbar a:hover {
+    background-color: #b88930;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
 #sbar a:nth-child(3) {
     border-top: 1px solid #afb6bb;
     /*Arrangement(name/duration/timing-function/delay/fill-mode)*/
