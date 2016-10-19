@@ -60,6 +60,10 @@ p.gender {
     display: inline-block;
     font-size: 13px;
 }
+a {
+    text-decoration: none;
+    cursor: default;
+}
 p#fnote {
     font-size: 11px;
     width: 306px;
