@@ -1,0 +1,231 @@
+*{
+    font-family: 'Oxygen', sans-serif;
+    letter-spacing: 1px;
+}
+
+/*Canvas Connect Plugin Start*/
+
+
+
+/*Canvas Connect Plugin End*/
+
+/*Slider Plugin*/
+
+.slider{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    float: left;
+    position: absolute;
+}
+
+
+/*End of Slider Plugin*/
+
+section#home {
+    padding: 0px 0px 90px;
+    background: url(../images/homebg.png);
+    
+}
+#home strong {
+    color: white;
+}
+#home h1 {
+    color: black;
+    padding: 164px 0px 24px;
+
+}
+#home span{
+    font-family: 'Great Vibes', cursive;
+    color: white;
+}
+#home hr {
+    width: 70%;
+    border: 1px solid black;
+}
+#home h4 {
+    color: #ffffff;
+    padding-top: 17px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+#home em {
+    color: white;
+}
+#home p {
+    margin-top: 180px;
+    padding-bottom: 30px;
+    font-size: 24px;
+    color: #ffffff;
+    letter-spacing: 6px;
+    font-family: 'Great Vibes', cursive;
+}
+section#mainservice {
+    background: url(../images/parkalley2.jpg);
+    width: 100%;
+}
+#mainservice h1 {
+    color: #d6cbcb;
+    font-size: 41px;
+    padding: 57px 0px 29px;
+    font-weight: 700;
+}
+#mainservice h3 {
+    color: #d6cbcb;
+}
+#mainservice a {
+    text-align: right;
+    float: right;
+    margin-bottom: 40px;
+    margin-top: 60px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background: rgba(97, 147, 158, 0.82);
+    padding: 18px 41px;
+    border: 2px solid white;
+}
+section#skill {
+    padding: 0px 0px 90px;
+    background: url(../images/woodbg.jpg);
+    background-repeat: repeat;
+    background-size:
+
+}
+#skill  h1 {
+    color: #312d2d;
+    text-align: right;
+    padding-bottom: 90px;
+    font-weight: 700;
+    font-size: 41px;
+    padding: 57px 0px 29px;
+}
+#skill .logo{
+    padding-bottom: 50px;
+    text-align: center;
+}
+#skill .right {
+    text-align: center;
+}
+@media (min-width: 768px){
+    #skill .right {
+        text-align: left;
+    }
+}
+@media (min-width: 992px){
+    #skill .right {
+        text-align: right;
+    }
+}
+@media (min-width: 1200px){
+    #skill .right {
+        text-align: right;
+    }
+}
+#skill .details {
+    padding: 10px 12px 15px;
+    max-width: 100%;
+    height: 100%;
+    background-color: rgba(222, 222, 230, 0.63);
+    margin-bottom: 34px;
+}
+@media (min-width: 768px){
+    #skill .details {
+        height: 135px;
+    }
+}
+@media (min-width: 992px){
+    #skill .details {
+        height: 205px;;
+    }
+}
+@media (min-width: 1200px){
+    #skill .details {
+        height: 205px;;
+    }
+}
+#skill .details p {
+    color: black;
+    text-align: justify;
+    font-size: 15px;
+}
+#skill img{
+    width: 70%;
+    text-align: center;
+}
+@media (max-width: 768px){
+    #skill img {
+        width: 50%;;
+    }
+}
+#skill h3 {
+    text-align: right;
+    color: #312d2d;
+    padding-bottom: 40px;
+}
+section#contact {
+    padding: 0px 0px 90px;
+    background: url(../images/contact.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#contact h1 {
+    color: #d6cbcb;
+    font-size: 41px;
+    padding: 57px 0px 29px;
+    font-weight: 700;
+}
+#contact h3{
+    color: #d6cbcb;
+    padding-bottom: 40px;
+}
+#contact h4{
+    color: white;
+    padding-bottom:8px; 
+}
+#contact input {
+    padding: 19px 15px;
+}
+#example-14.form-container input:focus + label, #example-14.form-container input.active + label, #example-14.form-container textarea:focus + label, #example-14.form-container textarea.active + label {
+    background: #3ea5b5;
+    color: #fff;
+}
+.form-container form input, .form-container form textarea {
+    border: 1px solid white;
+}
+#example-14.form-container .form-item-block > div {
+    background-color: white;
+}
+.form-item-block {
+    color: #55d0ff;
+}
+.form-container form button {
+    color: #222;
+    border: 1px solid #222;
+    background: transparent;
+    border-radius: 4px;
+    outline: none;
+    padding: 10px 20px;
+}
+
+button.btn.btn-primary {
+    padding: 10px 35px;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.section-bullets li a:hover{
+    background-color: #eee;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px; 
+}
