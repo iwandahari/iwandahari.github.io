@@ -230,7 +230,7 @@ button.btn.btn-primary {
     border-bottom-left-radius: 20px; 
 }
 
-#your-id-2{
+#your-id-2 {
     padding-left: 20px;
-    background: white;
+    background: white !important;
 }
